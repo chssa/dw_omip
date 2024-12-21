@@ -24,6 +24,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     background-color:lightsteelblue; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }
 nav ul {
     list-style: none;
@@ -56,29 +57,31 @@ nav ul li a {
     margin-top: 250px;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 270px;
+    margin-bottom: 220px;
 }
 .biodata {
     display: flex;
     align-items: flex-start;
-    padding: 20px;
+    padding: 30px;
 }
 .kolomb1 img {
     position: relative;
     top: 300px;
     margin-left: 100px;
+    z-index: auto;
 }
 .c1, .c2, .c3, .c4, .c5 {
     position: relative;
-    left: 50%;
-    bottom: 70px;
+    margin-bottom: 30px;
+    margin-left: 700px;
 }
 .content h1 {
-    font-size: 55px;
-    margin-bottom: 15px;
+    font-size: 65px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 .content h4 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 1px;
 }
 .c1, .c2, .c3, .c4, .c5 p {
@@ -107,13 +110,13 @@ nav ul li a {
     text-align: left;
     font-size: 55px;
     position: relative;
-    left: 10%;
-    top: 80px;
+    top: 120px;
+    margin-left: 160px;
 }
 .c7 video {
     position: relative;
     left: 40%;
-    top: -220px;
+    top: -130px;
 }
 
 .kolomc {
@@ -128,4 +131,6 @@ nav ul li a {
     text-align: center;
     padding: 0px;
 }
-
+.copyright {
+    text-align: center;
+}
